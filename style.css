@@ -1,0 +1,136 @@
+h1
+{
+  color: rgb(159, 146, 183);
+  font-size:70px;
+  margin-left: 10px;
+}
+h2
+{
+color:rgb(154, 114, 162);
+margin-left: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+}
+h3
+{
+color: rgb(159, 147, 201);
+margin-left: 10px;
+font-size: 30px;
+}
+
+body
+{
+color:rgb(103, 64, 138);
+background:rgb(190, 85, 123);
+background-image: url("https://www.shutterstock.com/image-vector/elegant-dark-solid-blue-background-260nw-1485481145.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+}
+#by
+{
+    color:rgb(40, 3, 75)
+    border: aliceblue;
+}
+.about
+{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size:40px;
+font-style: initial;
+font-style: normal;
+margin-left: 50px;
+margin-right: 600px;
+align-content: space-between;
+text-decoration: solid;
+color: rgb(235, 235, 239);
+}
+.profile
+{
+  position: fixed;
+  top: 70px;
+  right: 100px;
+  width: 20%;
+  height: 70%;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+footer
+{
+position:fixed;
+bottom:0%;
+right:0%;
+}
+header
+{
+position:sticky;
+top:0;
+border:slategrey;
+}
+/*@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }*/
+  /* Reset some default browser styles */
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 10;
+  right: 10;
+  width: 100%;
+  background-color: #333; /* Dark background */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex; /* Horizontal layout */
+  justify-content: flex-start; /* Align to the left */
+  gap: 20px; /* Space between items */
+}
+
+.navbar ul li {
+  display: inline; /* Inline items */
+}
+
+.navbar ul li a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* White text color */
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 12px; /* Add padding for clickable area */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #27035d; /* Slightly lighter background on hover */
+}
+.quote
+{
+  color: rgb(215, 191, 161);
+  text-align:left;
+  font-size: 30px;
+  margin-right: 700px;
+}
+.form{
+  background-color: rgb(118, 139, 189);
+  font-size: 30px;
+  margin-left: 40px;
+  margin-right: 1300px;
+ text-align: center;
+
+ 
+}
+.project{
+  margin-top: 30px;
+  color: rgb(131, 131, 208);
+  font-size: 30px;
+}
